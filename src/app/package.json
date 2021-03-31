@@ -1,0 +1,20 @@
+{
+  "name": "myfixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass pages/sign-up/test.scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1"
+  }
+}
