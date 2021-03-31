@@ -23,6 +23,5 @@ module.exports = {
   signIn,
   signUp,
   passwordReset,
-  passwordRecovery,
-
+  passwordRecovery
 };
