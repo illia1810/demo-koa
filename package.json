@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "lint": "eslint './src/**/*.js'",
-    "lint:fix": "eslint './src/**/*.js' -- fix",
+    "lint": "eslint ./src/**/*.js",
+    "lint:fix": "eslint ./src/**/*.js --fix",
     "lint:init": "eslint --init",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon ./app.js",

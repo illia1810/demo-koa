@@ -1,21 +1,21 @@
-async function index (ctx){
-  await ctx.render('index');  
+async function index(ctx) {
+  await ctx.render('index');
 }
 
 async function signIn(ctx) {
-  await ctx.render('sign-in/sign-in');  
+  await ctx.render('sign-in/sign-in');
 }
 
-async function passwordReset (ctx){
-  await ctx.render('sign-in/password-reset');  
+async function passwordReset(ctx) {
+  await ctx.render('sign-in/password-reset');
 }
 
-async function passwordRecovery (ctx){
-  await ctx.render('sign-in/password-recovery');  
+async function passwordRecovery(ctx) {
+  await ctx.render('sign-in/password-recovery');
 }
 
-async function signUp (ctx){
-  await ctx.render('sign-up/sign-up');  
+async function signUp(ctx) {
+  await ctx.render('sign-up/sign-up');
 }
 
 module.exports = {
@@ -23,5 +23,5 @@ module.exports = {
   signIn,
   signUp,
   passwordReset,
-  passwordRecovery
+  passwordRecovery,
 };
