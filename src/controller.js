@@ -18,25 +18,11 @@ async function signUp (ctx){
   await ctx.render('sign-up/sign-up');  
 }
 
-async function search (ctx){
-  await ctx.render('search/search');  
-}
-
-async function profile (ctx){
-  await ctx.render('profile/profile');  
-}
-
-async function adminZone (ctx){
-  await ctx.render('admin-zone/admin-zone');  
-}
-
 module.exports = {
   index,
   signIn,
   signUp,
   passwordReset,
   passwordRecovery,
-  search,
-  profile,
-  adminZone
+
 };
